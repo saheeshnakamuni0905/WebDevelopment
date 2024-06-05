@@ -14,8 +14,8 @@ public class BookImpl {
     
     public int addBooks(List<String> isbn, List<String> title, List<String> authors, List<Float> price) throws ClassNotFoundException, SQLException {
         String url = "jdbc:mysql://localhost:3306/books";
-        String username = "root";
-        String pass = "husky";
+        String username = "*********";
+        String pass = "**********";
         String sql = "INSERT INTO bookslist (isbn, title, authors, price) VALUES (?, ?, ?, ?)";
         
         Class.forName("com.mysql.cj.jdbc.Driver");
