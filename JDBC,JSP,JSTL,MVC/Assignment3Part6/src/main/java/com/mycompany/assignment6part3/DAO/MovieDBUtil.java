@@ -45,8 +45,8 @@ public class MovieDBUtil {
      */
     public static List<Movie> getMovieList() throws ClassNotFoundException, SQLException{
         String url = "jdbc:mysql://localhost:3306/movies";
-        String username = "root";
-        String pass = "husky";
+        String username = "*******";
+        String pass = "*******8";
         ArrayList<Movie> movie = new ArrayList<>();
         Class.forName("com.mysql.cj.jdbc.Driver");
         Statement statement;
@@ -70,8 +70,8 @@ public class MovieDBUtil {
     public static int addMovie(String title, String director, String genre, int rating)
         throws ClassNotFoundException, SQLException {
     String url = "jdbc:mysql://localhost:3306/movies";
-    String username = "root";
-    String pass = "husky";
+    String username = "*******";
+    String pass = "*********";
     
     String sql = "INSERT INTO movieslist (title, director, genre, rating) VALUES (?, ?, ?, ?)";
     Class.forName("com.mysql.cj.jdbc.Driver");
@@ -96,8 +96,8 @@ public class MovieDBUtil {
     
     public static Movie searchMovie(String inputText, String category) throws ClassNotFoundException, SQLException {
     String url = "jdbc:mysql://localhost:3306/movies";
-    String username = "root";
-    String pass = "husky";
+    String username = "*******";
+    String pass = "********";
     // Ensure that searchParam is a valid column name to prevent SQL injection
     String sql = "SELECT * FROM movieslist WHERE " + category+ " LIKE ? LIMIT 1";
     Movie searchedMovie = null;
