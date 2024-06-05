@@ -1,0 +1,3 @@
+com.mycompany.assignment4part9.JAXRSConfiguration=javax.ws.rs.ApplicationPath
+com.mycompany.assignment4part9.controller.Part9Controller=org.springframework.stereotype.Component
+com.mycompany.assignment4part9.resources.JavaEE8Resource=javax.ws.rs.Path

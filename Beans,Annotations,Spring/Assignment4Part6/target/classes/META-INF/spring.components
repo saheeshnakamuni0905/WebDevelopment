@@ -1,0 +1,3 @@
+com.mycompany.assignment2p6.JAXRSConfiguration=javax.ws.rs.ApplicationPath
+com.mycompany.assignment2p6.controller.ShoppingCartController=org.springframework.stereotype.Component
+com.mycompany.assignment2p6.resources.JavaEE8Resource=javax.ws.rs.Path

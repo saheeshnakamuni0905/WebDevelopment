@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment3</title>
+</head>
+
+<body>
+    <h1>Assignment 3 Form Submission</h1>
+    <form action="part3.1" method="post" enctype="multipart/form-data">
+        <label>Email:</label>
+        <input type="text" id="email" name="email" required><br><br><br>
+
+        <label>Password:</label>
+        <input type="password" id="password" name="password" required><br><br><br>
+
+        <label>Confirm Password:</label>
+        <input type="password" id="confirm" name="confirm" required><br><br><br>
+
+        <label>Upload Your Picture:</label>
+        <input type="file" id="pic" name="pic" accept="image/*"><br><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br><br>
+
+        <label for="country">Select Country:</label>
+        <select id="country" name="country">
+            <option value="united_kingdom">United Kingdom</option>
+            <option value="india">India</option>
+            <option value="usa">United States of America</option>
+        </select><br><br><br>
+
+        <label>Hobby:</label>
+        <input type="checkbox" id="cricket" name="hobby" value="cricket">
+        <label for="cricket">Cricket</label>
+        <input type="checkbox" id="football" name="hobby" value="football">
+        <label for="football">Football</label><br><br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4"></textarea><br><br><br>
+
+        <button type="submit" class="submit-btn">Submit</button>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tuition Waiver</title>
+    <style>
+        p {
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="tuition.do" method="post">
+        <h1>4 Tuition waiver Form</h1>
+        <p>
+            This form is used by part-time faculty, part-time staff, retirees, their spouses or domestic partners and
+            their
+            dependents.
+            All full-time faculty and staff should use the online Tuition Waiver Form found on myNEU. Before completing
+            this
+            form,
+            please refer to the Tuition Waiver Program Guidelines. Be sure to include a Dependent Certification Form
+            along
+            with
+            the submission of this form for any dependent children.
+        </p>
+
+        <h3 style="color: red;">Section 1</h3>
+
+        <label>Academic Term: </label>
+        <input type="text" id="term" name="term">
+
+        <label>Academic Year: </label>
+        <input type="text" id="year" name="year">
+
+        <label>Employee Status: </label>
+        <input type="checkbox" id="staff" name="status" value="staff">
+        <label>P/T Staff</label>
+        <input type="checkbox" id="faculty" name="status" value="faculty">
+        <label>P/T Faculty</label>
+        <input type="checkbox" id="retiree" name="status" value="retiree">
+        <label>Retiree</label>
+        <input type="checkbox" id="other" name="status" value="other">
+        <label>Other</label>
+
+        <h3 style="color: red;">Section 2</h3>
+
+        <label>Student's name: </label>
+        <input type="text" id="studentname" name="studentname">
+
+        <label>Relationship to Employee: </label>
+        <input type="text" id="relation" name="relation">
+
+        <label>Student's NUID: </label>
+        <input type="text" id="studentnuid" name="studentnuid">
+
+        <label>Employee's name: </label>
+        <input type="text" id="employeename" name="employeename">
+
+        <label>Employee's NUID: </label>
+        <input type="text" id="employeenuid" name="employeenuid">
+
+        <label>Department: </label>
+        <input type="text" id="department" name="department">
+
+        <label>Campus Location: </label>
+        <input type="text" id="location" name="location">
+
+        <label>Phone Number: </label>
+        <input type="tel" id="phonenumber" name="phonenumber">
+
+        <label>Supervisor's name: </label>
+        <input type="text" id="supervisor" name="supervisor">
+
+        <h3 style="color: red;">Section 3</h3>
+        <h4 style="color: rgb(10, 50, 79);">Indicate the applicable school or program</h4>
+
+        <input type="radio" id="ug" name="section3" value="Undergraduate Program">
+        <label for="male">Undergraduate Program</label>
+
+        <input type="radio" id="law" name="section3" value="Law School (excludes employees)">
+        <label for="male">Law School (excludes employees) </label>
+
+        <input type="radio" id="doc" name="section3" value="Doctoral Candidate">
+        <label for="male">Doctoral Candidate</label>
+
+        <input type="radio" id="cps" name="section3" value="College of Professional Studies (CPS)">
+        <label for="male">College of Professional Studies (CPS)</label>
+
+        <input type="radio" id="cps" name="section3" value="College of Professional Studies (CPS) Undergraduate">
+        <label for="male">College of Professional Studies (CPS) Undergraduate</label>
+
+        <input type="radio" id="school" name="section3" value="Graduate School">
+        <label for="male">Graduate School</label>
+
+
+        <input type="radio" id="cpsschool" name="section3" value="CPS Graduate School">
+        <label for="male">CPS Graduate School</label>
+        <br><br>
+
+        <p>One course per academic term may be taken one-half hour before the end of your workday. If this applies
+            to you, this
+            form must be signed by your supervisor below and approved by Human Resources Management.</p>
+        <p>
+            Complete the following course information. If you are an employee taking a job related course, please
+            attach the Job
+            Related Designation Form to this waiver. </p>
+
+        <table>
+            <tr>
+                <th>Course No</th>
+                <th>Course Name</th>
+                <th>Supervisor Signature</th>
+                <th>Credit Hrs</th>
+                <th>Day(s)</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td><input type="text" id="r1cell1" name="r1cell1"></td>
+                <td><input type="text" id="r1cell2" name="r1cell2"></td>
+                <td><input type="text" id="r1cell3" name="r1cell3"></td>
+                <td><input type="text" id="r1cell4" name="r1cell4"></td>
+                <td><input type="text" id="r1cell5" name="r1cell5"></td>
+                <td><input type="text" id="r1cell6" name="r1cell6"></td>
+                <td>am/pm</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="r2cell1" name="r2cell1"></td>
+                <td><input type="text" id="r2cell2" name="r2cell2"></td>
+                <td><input type="text" id="r2cell3" name="r2cell3"></td>
+                <td><input type="text" id="r2cell4" name="r2cell4"></td>
+                <td><input type="text" id="r2cell5" name="r2cell5"></td>
+                <td><input type="text" id="r2cell6" name="r2cell6"></td>
+                <td>am/pm</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="r3cell1" name="r3cell1"></td>
+                <td><input type="text" id="r3cell2" name="r3cell2"></td>
+                <td><input type="text" id="r3cell3" name="r3cell3"></td>
+                <td><input type="text" id="r3cell4" name="r3cell4"></td>
+                <td><input type="text" id="r3cell5" name="r3cell5"></td>
+                <td><input type="text" id="r3cell6" name="r3cell6"></td>
+                <td>am/pm</td>
+            </tr>
+        </table>
+        <h3 style="color: red;">Section 4</h3>
+        <p>
+            In accordance with Northeastern University's Tuition Waiver Program Guidelines, my signature attests
+            that I am
+            currently enrolled in the above courses, or that the student listed above is my spouse, domestic
+            partner or
+            unmarried dependent child or the dependent child of my domestic partner as defined under current IRS
+            tax
+            regulations. I also certify that I have read the Tuition Waiver Program Guidelines
+        </p>
+        <label>Employee's Signature</label>
+        <input type="text" id="empsign" name="empsign">
+        <label>Date</label>
+        <input type="text" id="date" name="date">
+
+        <h3 style="color: red;">Section 5</h3>
+        <label>HRM Approval</label>
+        <input type="text" id="hrm" name="hrm">
+        <label>Date</label>
+        <input type="text" id="date" name="datesec5">
+
+        <button type="submit" class="submit-btn">Submit</button>
+    </form>
+
+</body>
+
+</html>

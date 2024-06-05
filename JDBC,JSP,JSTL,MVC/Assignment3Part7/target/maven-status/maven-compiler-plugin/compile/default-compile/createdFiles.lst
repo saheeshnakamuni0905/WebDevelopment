@@ -1,0 +1,5 @@
+com\mycompany\assignment3part7\JakartaRestConfiguration.class
+com\mycompany\assignment3part7\controller\BookController.class
+com\mycompany\assignment3part7\DAO\BookImpl.class
+com\mycompany\assignment3part7\pojo\Book.class
+com\mycompany\assignment3part7\resources\JakartaEE8Resource.class

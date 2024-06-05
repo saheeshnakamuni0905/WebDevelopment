@@ -1,0 +1,11 @@
+<web-app>
+	<servlet>
+		<servlet-name>part5</servlet-name>
+		<servlet-class>GetMethods</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>part5</servlet-name>
+		<url-pattern>/getMethods</url-pattern>
+	</servlet-mapping>
+</web-app>

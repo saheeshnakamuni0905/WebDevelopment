@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_3_0.xsd"
+        version="3.0">
+    
+    <tlib-version>1.0</tlib-version>
+    <short-name>mytag</short-name>
+    <uri>/tlds/TagFile</uri>
+
+    <tag>
+        <name>nameCSV</name>
+        <tag-class>com.mycompany.assignment3part9.A3P9CSV</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>csvFileName</name>
+            <required>true</required>
+        </attribute>
+    </tag>
+</taglib>

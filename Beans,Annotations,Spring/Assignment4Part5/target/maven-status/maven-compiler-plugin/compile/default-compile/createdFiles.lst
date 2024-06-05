@@ -1,0 +1,4 @@
+com\mycompany\assignment4part5\DAO\MovieDAO.class
+com\mycompany\assignment4part5\DAO\MovieDAOImpl.class
+com\mycompany\assignment4part5\pojo\MovieData.class
+com\mycompany\assignment4part5\controller\MovieController.class

@@ -1,0 +1,23 @@
+body {                
+    overflow: hidden;
+}
+.container{
+    width: 50%;  
+}
+.groceries-container{
+    height: 900px;
+}
+.skincare-container{
+    height: 900px;
+}
+.left{
+    float:left;
+    padding-left:30px;
+    padding-right: 30px;
+    position: fixed;
+}
+.right{
+    float:right;
+    padding-right:50px;
+}
+          

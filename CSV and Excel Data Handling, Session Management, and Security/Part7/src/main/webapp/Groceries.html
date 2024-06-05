@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Groceries</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       <h1>Groceries</h1>
+            <a href="index.html">Home Page</a>            
+            <form action = "AddCart.do" method="post">
+                <input type="checkbox" id="g1" name="items" value="Potatoes">
+                        <label for="Potatoes"> Potatoes </label><br>
+                        <input type="checkbox" id="g2" name="items" value="Tomatoes">
+                        <label for="Tomatoes"> Tomatoes</label><br>
+                        <input type="checkbox" id="g3" name="items" value="Cauliflower">
+                        <label for="Cauliflower"> Cauliflower </label><br><br>
+                        
+                        <input type="hidden" name="groceryList" value="true"/>
+                        
+                        <button name="viewCart" value="viewCart">View Cart</button>
+                        <button name="addToCart" value="addCart">Add to Cart</button>
+            </form>
+    </body>
+</html>
